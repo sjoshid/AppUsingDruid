@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="302864e1-bb5d-42c2-9792-91500e6a10ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUsingDruid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trace.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace-1613256348.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace-1613256554.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trace.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trace.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
@@ -80,8 +76,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613247156636</updated>
-      <workItem from="1613247159982" duration="5639000" />
+      <workItem from="1613247159982" duration="8127000" />
     </task>
+    <task id="LOCAL-00001" summary="Using chrome-tracing as a subscriber">
+      <created>1613257456006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613257456006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding main file">
+      <created>1613257605116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613257605116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,23 +100,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Using chrome-tracing as a subscriber" />
+    <MESSAGE value="Adding main file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding main file" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1862" height="262" key="GridCell.Tab.0.bottom" timestamp="1613256547943">
+    <state x="1509" y="0" key="CommitChangelistDialog2" timestamp="1613257604726">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.bottom/0.0.3840.1040@0.0.3840.1040" timestamp="1613256547943" />
-    <state width="1862" height="262" key="GridCell.Tab.0.center" timestamp="1613256547943">
+    <state x="1509" y="0" key="CommitChangelistDialog2/0.0.3840.1040@0.0.3840.1040" timestamp="1613257604726" />
+    <state width="1862" height="262" key="GridCell.Tab.0.bottom" timestamp="1613260007617">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.center/0.0.3840.1040@0.0.3840.1040" timestamp="1613256547943" />
-    <state width="1862" height="262" key="GridCell.Tab.0.left" timestamp="1613256547943">
+    <state width="1862" height="262" key="GridCell.Tab.0.bottom/0.0.3840.1040@0.0.3840.1040" timestamp="1613260007617" />
+    <state width="1862" height="262" key="GridCell.Tab.0.center" timestamp="1613260007617">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.left/0.0.3840.1040@0.0.3840.1040" timestamp="1613256547943" />
-    <state width="1862" height="262" key="GridCell.Tab.0.right" timestamp="1613256547943">
+    <state width="1862" height="262" key="GridCell.Tab.0.center/0.0.3840.1040@0.0.3840.1040" timestamp="1613260007617" />
+    <state width="1862" height="262" key="GridCell.Tab.0.left" timestamp="1613260007616">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state width="1862" height="262" key="GridCell.Tab.0.right/0.0.3840.1040@0.0.3840.1040" timestamp="1613256547943" />
+    <state width="1862" height="262" key="GridCell.Tab.0.left/0.0.3840.1040@0.0.3840.1040" timestamp="1613260007616" />
+    <state width="1862" height="262" key="GridCell.Tab.0.right" timestamp="1613260007617">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1862" height="262" key="GridCell.Tab.0.right/0.0.3840.1040@0.0.3840.1040" timestamp="1613260007617" />
+    <state x="1512" y="237" key="Vcs.Push.Dialog.v2" timestamp="1613257606197">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="1512" y="237" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1613257606197" />
+    <state x="1650" y="296" key="git4idea.merge.GitPullDialog" timestamp="1613257566787">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="1650" y="296" key="git4idea.merge.GitPullDialog/0.0.3840.1040@0.0.3840.1040" timestamp="1613257566787" />
   </component>
 </project>
