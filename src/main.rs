@@ -12,7 +12,9 @@ struct HelloState {
 }
 
 fn main() {
-    // describe the main window
+
+    let _guard = trace::setup_global_subscriber();
+
     let main_window = WindowDesc::new(build_root_widget())
         .title("Hello World!")
         .window_size((400.0, 400.0));
@@ -21,8 +23,6 @@ fn main() {
     let initial_state: HelloState = HelloState {
         name: "World".into(),
     };
-
-    let _guard = trace::setup_global_subscriber();
 
     // start the application. Here we pass in the application state.
     AppLauncher::with_window(main_window)
